@@ -17,7 +17,7 @@ class MyTCPHandler(SocketServer.BaseRequestHandler):
         self.do_something_action()
 
     def do_something_action(self):
-        # do your gpio here
+        # do something here when get data from client
 
 
 if __name__ == "__main__":
